@@ -23,9 +23,62 @@
     padding-left: 32px;
 }
 
+.banner1 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner2 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner3 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner4 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner5 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner6 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner7 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner8 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner9 img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
 
 
-/* banner1上面的按鈕 加了position做壞掉 */
+
 
 .banner1{ 
     /* position: absolute; */

@@ -6,6 +6,9 @@
 
 .banner1{
     padding-bottom: 10px;
+    width: 100%;
+	height: auto;
+	display: block;
 }
 
 
@@ -52,7 +55,6 @@
   }
 
 
-/* display: none;沒有用所以用margin推 */
 button.slick-next.slick-arrow{
     display: none !important;
 }
