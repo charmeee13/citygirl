@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.collection_demoleft{
+    justify-content: center;
+    align-items: center;
+}
+
 .collection_demo{
     display: flex;
 }
