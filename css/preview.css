@@ -13,7 +13,9 @@
 
 
 .grid-container {
+    width: 1000px;
     display: grid;
+    margin: 0 auto;
     /* grid-template-rows:"2fr 1fr"; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -31,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 400px;
   }
   .grid-item img {
       width: 100%;
