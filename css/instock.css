@@ -54,8 +54,7 @@
 
 /* display: none;沒有用所以用margin推 */
 button.slick-next.slick-arrow{
-    display: none;
-    margin-right:30px;
+    display: none !important;
 }
 
 

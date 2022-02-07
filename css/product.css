@@ -18,9 +18,7 @@
     height: 400px;
 }
 
-section{
-    padding-left: 30px;
-}
+
 
 h1{
     font-size: 24px;
@@ -58,14 +56,12 @@ p{
 /* slick */
 
 button.slick-prev .slick-arrow{
-    display: none; 
+    display: none !important;
 }
 
 button.slick-next.slick-arrow{
-    display: none; 
-    margin-right:25px;
+    display: none !important;
 }
-
 
 .productdemo_sliders li img{
     height: 300px;
