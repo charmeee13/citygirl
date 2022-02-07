@@ -9,6 +9,17 @@
     display: flex;
 }
 
+.collection_demo .move{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.collection_demo .move:hover{
+    opacity: 1;
+}
+
+
+
 .collection_demo img{
     /* display: block;
     text-align: center; */
