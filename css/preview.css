@@ -10,29 +10,28 @@
 	display: block;
 }
 
+
+
 .grid-container {
     display: grid;
     /* grid-template-rows:"2fr 1fr"; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "a a b" 
-    "c d d" 
-    "e e f";
+    "a b b" 
+    "c d e" 
+    "f f f";
     /* grid-template-columns: auto auto auto; */
-  
-    border: 1px solid black;
     
     padding: 30px;
     gap: 50px;
   }
   .grid-item {
-    border: 1px solid red;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 600px;
   }
   .grid-item img {
       width: 100%;
