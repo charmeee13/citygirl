@@ -1,0 +1,32 @@
+@import url(./common.css);
+
+footer{
+    background-color: #fff;
+}
+
+.icon_spot{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.icon_spot h2{
+    padding-right: 8px;
+}
+
+.icon_spot a{
+    padding-right: 5px;
+    color:#000
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+

@@ -1,0 +1,44 @@
+@import url(./common/common.css);
+
+*{
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1200px; 
+}
+
+.productdemo{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.productdemo li img{
+    width: 250px;
+    height: 340px; 
+}
+
+.productdemo a{
+    color: #000;
+    text-decoration: none;
+}
+
+.product-name{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.productdemo li a{
+    padding-left: 20px;
+}
+
+.productdemo li a{
+    display: block;
+    text-align: center;
+}
+
+
+

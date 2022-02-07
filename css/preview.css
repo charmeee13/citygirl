@@ -1,0 +1,84 @@
+@import url(./common/common.css);
+
+*{
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-rows:"2fr 1fr"; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "a a b" 
+    "c d d" 
+    "e e f";
+    /* grid-template-columns: auto auto auto; */
+  
+    border: 1px solid black;
+    
+    padding: 30px;
+    gap: 50px;
+  }
+  .grid-item {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+  }
+
+  .grid-item:nth-child(1){
+      grid-area: a;
+
+  }
+
+  .grid-item:nth-child(2){
+    grid-area: b;
+      
+}
+
+.grid-item:nth-child(3){
+    grid-area: c;
+      
+}
+
+.grid-item:nth-child(4){
+    grid-area: d;
+      
+}
+
+.grid-item:nth-child(5){
+    grid-area: e;
+      
+}
+
+.grid-item:nth-child(6){
+    grid-area: f;
+      
+}
+
+
+
+  .-item4{
+    
+    /* 將 4 那塊，擴展到 4、5、7、8 欄位 */
+  /*   grid-row-start: 2;
+    grid-column-start: 1;
+    
+    grid-row-end: 4;
+    grid-column-end: 3; */
+    
+    
+    /* 以上四行，等同於以下這行 */
+  /*   grid-area: 2 / 1 / 4 / 3; */
+   
+  }

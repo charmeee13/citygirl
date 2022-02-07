@@ -1,0 +1,71 @@
+@import url(./common/common.css);
+
+
+*{
+    box-sizing: border-box;
+}
+
+.collection_demo{
+    display: flex;
+}
+
+.collection_demo img{
+    /* display: block;
+    text-align: center; */
+    width: 400px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.collection_demoleft{
+    padding-left: 32px;
+}
+
+
+
+/* banner1上面的按鈕 加了position做壞掉 */
+
+.banner1{ 
+    /* position: absolute; */
+}
+
+.section a{
+    position: relative;
+} 
+
+.f1{
+    font-size: 16px;
+    color: aliceblue;
+    left:900px;
+    top:160px;
+    text-decoration: none;
+    border: 0px solid;
+    border: 6px solid rgb(79, 150, 209);
+    background-color: rgb(79, 150, 209);
+    border-radius: 10px;
+}
+
+/* 按鈕的hover效果 */
+
+
+@keyframes swing{
+    15%{transform: translateX(5px);} 
+    40%{transform: translateX(-5px);}
+    65%{transform: translateX(2px);}
+    85%{transform: translateX(-2px);}
+    100%{transform: translateX(0px);}
+}
+
+.f1h{
+    transition: 0.5s;
+}
+
+.f1h:hover{
+    animation: swing 1s 1;
+}
+
+/* 為解決position浮動問題 */
+
+

@@ -1,0 +1,40 @@
+@import url(./common/common.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap")
+
+body{
+  font-family: garamond-premier-pro-display, Helvetica Neue, Helvetica, meiryo, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+
+
+.sliders img{
+    width: 100%;
+}
+
+h2{        
+    color:rgb(104, 10, 10);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing:1rem;
+    padding-top:50px;
+}
+
+.concept p{        
+    text-align: center;
+    color:black;
+    font-size: 18px;
+    line-height: 1.8rem;
+    padding-top:30px;
+    padding-bottom: 30px; 
+}
+
+
+    

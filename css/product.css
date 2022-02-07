@@ -1,0 +1,93 @@
+@import url(./common/common.css);
+
+*{
+    box-sizing: border-box;
+}
+
+
+.wrap{
+    width: 1200px;
+    display: flex; 
+	justify-content: center;
+    align-items: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wrap img{
+    height: 400px;
+}
+
+section{
+    padding-left: 30px;
+}
+
+h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+
+
+.button a{
+    text-decoration: none;
+    color: #585858;
+    background-color: #f1ecec;
+    display: inline-block;
+    width: 180px;
+    line-height: 50px;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button a:hover{
+    background-color: #f1ecec;   
+    color: #000;
+    /* cursor: pointer;   */
+    /* transition: .5s; */
+} 
+
+
+
+/* slick */
+
+button.slick-prev .slick-arrow{
+    display: none; 
+}
+
+button.slick-next.slick-arrow{
+    display: none; 
+    margin-right:25px;
+}
+
+
+.productdemo_sliders li img{
+    height: 300px;
+}
+
+/* 為何不能右移阿阿阿 */
+
+/* .productdemo_sliders li a{
+    padding-left: 20px;
+} */
+
+.productdemo_sliders a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.productdemo_sliders li h2{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+/* slick end */
+

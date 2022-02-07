@@ -1,0 +1,112 @@
+@import url(./common/common.css);
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.banner1{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.wrapper{
+	display: flex; 
+	justify-content: center;
+    align-items: center; 
+    /* margin: 0 auto; */
+}
+
+.map{
+    padding-top: 20px;
+	padding-right: 50px;
+}
+
+.info{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.info h2{
+	font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.info span{
+	font-size: 13px;
+	margin-right: 6px;
+}
+
+/* form */
+
+
+.main{
+	background-color: #fff;
+	padding-top: 20px;
+	/* display: block;
+	margin: 0 auto; */
+}
+
+.main ul{
+	width: 100%;
+	margin: 0 auto ;
+}
+
+.main li{
+	margin-bottom: 10px;
+}
+
+.main p{
+	color: #999;
+	font-size: 14px;
+}
+
+
+/* input form */
+
+.main .name{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	outline: 0; 
+}
+
+.main .phone{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	outline: 0; 
+}
+
+.main .email{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	outline: 0; 
+}
+
+.main textarea{
+	width: 250px;
+	height: 180px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	outline: 0; 
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+}
+
+.main .send{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	background-color: #67696e;
+	color: white;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+}

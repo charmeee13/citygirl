@@ -1,0 +1,301 @@
+@import url(./common/reset.css);
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    /* min-width: 970px; */
+    /* background-color: #fff; */
+    z-index: 10;
+    /* 不佔位 */
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+
+.logo{
+    width: 300px;
+    position: absolute;
+    /* padding-top: -50px; */
+    /* left:50%;
+    top:50%;
+    transform: translate(-50%,-50%); */
+}
+
+
+.navbar{
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav ul > li{
+     
+     padding-top: 10px; 
+     padding-bottom: 10px; 
+}
+
+/* 清除浮動 */
+/* nav ul::after{
+    content: "";
+    display: block;
+    clear:both;
+}  */
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px; 
+    font-size: 15px;
+}
+
+
+
+/* 頁面上的a連結按鈕 */ 
+
+.fullpage{ 
+    position: absolute;
+}
+
+.section a{
+    position: relative;
+} 
+
+.f1{
+    font-size: 16px;
+    color: #fff;
+    /* left:235px;
+    top:400px;  */
+    text-decoration: none;
+    border: 6px solid rgb(132, 202, 118);
+    background-color: rgb(132, 202, 118);
+    border-radius: 10px;
+}
+
+.f2{
+    font-size: 16px;
+    color: aliceblue;
+    /* left:1000px;
+    top:280px; */
+    text-decoration: none;
+    border: 0px solid;
+    border: 6px solid rgb(79, 150, 209);
+    background-color: rgb(79, 150, 209);
+    border-radius: 10px;
+}
+
+.f3{
+    font-size: 16px;
+    color: #fff;
+    /* left:746px;
+    top: 313px;px; */
+    text-decoration: none;
+    border: 5px solid rgb(224, 207, 48);
+    background-color: rgb(224, 207, 48);
+    border-radius: 10px;
+}
+
+/* 按鈕的hover效果 */
+
+
+@keyframes swing{
+    15%{transform: translateX(5px);} 
+    40%{transform: translateX(-5px);}
+    65%{transform: translateX(2px);}
+    85%{transform: translateX(-2px);}
+    100%{transform: translateX(0px);}
+}
+
+.f1h{
+    transition: 0.5s;
+}
+
+.f1h:hover{
+    animation: swing 1s 1;
+}
+
+.f2h{
+    transition: 0.5s;
+}
+
+.f2h:hover{
+    animation: swing 1s 1;
+}
+
+.f3h{
+    transition: 0.5s;
+}
+
+.f3h:hover{
+    animation: swing 1s 1;
+}
+
+/* 解決因為a連結按鈕而出現的頁面留白 */
+
+.fp-tableCell{
+    position: relative;
+    overflow: hidden;
+}
+
+.fullpage_img1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+} 
+.f1h{
+    position: absolute;
+    z-index: 9;
+    left:235px;
+    top:400px;
+}
+.fullpage_img2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.f2h{
+    position: absolute;
+    z-index: 9;
+    left:1000px;
+    top:280px;
+}
+
+.fullpage_img3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.f3h{
+    position: absolute;
+    z-index: 9;
+    left:746px;
+    top: 313px;
+}
+
+/* 但讓我的a連結按鈕不見了 */
+
+/*
+nav ul::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+nav ul > li{
+    float: left;
+}
+*/
+
+
+
+/* 下拉式選單 */
+
+nav ul li ol li a {
+    font-size: 8px;
+}
+
+
+
+ol{
+    background-color: #fff;
+    width: 100px;
+    position: absolute; 
+    margin-left: 15px;
+    display: none; 
+}
+
+
+
+ol li a{
+    /* 艱難的置中之路 */
+    display: block;
+    text-align: center;
+}  
+
+
+.navbar ul ol a:hover{
+    color: rgb(133, 7, 7);
+}
+
+
+.navbar ul > li:hover ol{
+    display: block;
+}
+
+/* hover換字效果 */
+
+.title{
+    display:inline-block;
+    width: 130px;
+    border: 1px solid rgb(12, 12, 12);
+}
+
+
+.title:hover span.a{
+    display: none;
+} 
+
+.title:hover span.b{
+    /* display: block;  */
+
+    display:inline-block;
+    width:100%;
+    text-align: center;  
+} 
+
+span.a{
+    /* display:inline-block; */
+    border: 1px solid blue; 
+}
+
+span.a, span.b{
+    /* display: inline-block; */
+    letter-spacing: 1px;
+    /* transform: translateY(0);
+    transition: all .4s;  */
+} 
+
+span.b{ 
+    display: none; 
+    border: 1px solid rgb(228, 15, 0); 
+}
+
+/* a連結置中之路遙遙 */
+.title span.a{
+    display: block;
+    text-align: center;
+} 
+
+ /* .title span.b{
+    display: block;
+    text-align: center;
+}   */
+
+
+
+
+ 
+
+
+
+
+
+
+
+
