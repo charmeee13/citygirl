@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.spot{
+    margin-left: 25px;
+}
 
 .wrap{
     width: 1200px;
