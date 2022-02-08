@@ -58,5 +58,13 @@ body{
     text-align: center;
 }
 
+/* 淡入深出hover */
+.productdemo img{
+    transition: 0.5s;
+    opacity: 0.8;
+}
 
+.productdemo img:hover{
+    opacity: 1;
+}
 

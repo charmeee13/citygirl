@@ -19,6 +19,8 @@ body{
     display: flex;
 }
 
+
+/* 淡入深出hover */
 .collection_demo .move{
     transition: 0.5s;
     opacity: 0.8;

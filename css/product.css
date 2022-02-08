@@ -149,3 +149,13 @@ button.slick-next.slick-arrow{
 
 /* slick end */
 
+/* 淡入深出hover */
+.productdemo_sliders img{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.productdemo_sliders img:hover{
+    opacity: 1;
+}
+

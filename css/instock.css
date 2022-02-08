@@ -116,3 +116,23 @@ button.slick-next.slick-arrow{
     display: block;
     text-align: center;
 }
+
+
+/* 淡入深出hover */
+.productdemo img{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.productdemo img:hover{
+    opacity: 1;
+}
+
+.productdemo_sliders img{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.productdemo_sliders img:hover{
+    opacity: 1;
+}
