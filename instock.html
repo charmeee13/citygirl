@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/instock.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- 引入slick.css檔案 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" 
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" 
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+
     crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
-    <!-- 如果想增加自訂樣式可以加入這個檔案 slick-theme.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" 
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -42,7 +45,7 @@
         </header>
         <img class="banner1" src="./img/instock/banner1.png" alt="">
 
-        <!-- slick start -->
+        <!-- slick -->
             <section>
                 <ul class="productdemo_sliders">
                     <li><a href="./product.html" target=“_blank”>
@@ -107,9 +110,9 @@
                     </li>
                 </ul>
             </section>
-        <!-- slick end -->
+        
 
-        <!-- product demo start -->
+        <!-- product demo -->
             <section>
                 <ul class="productdemo">
                     <li>
@@ -344,7 +347,7 @@
                 </ul>
 
             </section>
-        <!-- product demo end -->
+       
         
     
        
@@ -366,13 +369,8 @@
             
         </footer>
 
-        <!-- 引入JQUERY後，還有JQ的動態腳本，最後加上Slick腳本 -->
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" 
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
 
         <script type="text/javascript">
                 $('.productdemo_sliders').slick({
