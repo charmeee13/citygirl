@@ -1,7 +1,12 @@
 @import url(./common/common.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
 }
 
 .banner1{

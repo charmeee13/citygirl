@@ -1,7 +1,12 @@
 @import url(./common/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -17,10 +22,6 @@ header{
 .logo{
     width: 300px;
     position: absolute;
-    /* padding-top: -50px; */
-    /* left:50%;
-    top:50%;
-    transform: translate(-50%,-50%); */
 }
 
 
@@ -43,6 +44,7 @@ nav ul > li{
 
 nav ul li a {
     text-decoration: none;
+    font-weight: 600;
     color: rgb(0, 0, 0);
     padding: 5px; 
     font-size: 15px;

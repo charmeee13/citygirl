@@ -1,9 +1,14 @@
 @import url(./common/common.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 
 .collection_demoleft{
     justify-content: center;
@@ -22,7 +27,6 @@
 .collection_demo .move:hover{
     opacity: 1;
 }
-
 
 
 .collection_demo img{
@@ -136,23 +140,8 @@
     animation: swing 1s 1;
 }
 
-/* banner2 grid */
-
-.banner2 .grid-container {
-    display: grid;
-    width: 1000px;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "a a b" 
-    "c c c" 
-    "d e f";
-    
-    padding: 30px;
-    gap: 50px;
-  }
-  .grid-item {
+/* grid共用 */
+.grid-item {
     text-align: center;
     display: flex;
     align-items: center;
@@ -196,6 +185,23 @@
     grid-area: f;
       
 }
+/* banner2 grid */
+
+.banner2 .grid-container {
+    display: grid;
+    width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "a a b" 
+    "c c c" 
+    "d e f";
+    
+    padding: 30px;
+    gap: 50px;
+  }
+  
 
 
 /* banner3 grid */
@@ -213,51 +219,7 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
-
+  
 /* banner4 grid */
 
 .banner4 .grid-container {
@@ -273,50 +235,7 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
+  
 
 /* banner5 grid */
 
@@ -334,50 +253,7 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
+  
 
 /* banner6 grid */
 
@@ -393,50 +269,7 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
+  
 
 /* banner7 grid */
 
@@ -454,50 +287,6 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
 
 
 /* banner8 grid */
@@ -515,50 +304,7 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
+  
 
 /* banner9 grid */
 
@@ -575,47 +321,4 @@
     padding: 30px;
     gap: 50px;
   }
-  .grid-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-  }
-  .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-  }
-
-  .grid-item:nth-child(1){
-      grid-area: a;
-
-  }
-
-  .grid-item:nth-child(2){
-    grid-area: b;
-      
-}
-
-.grid-item:nth-child(3){
-    grid-area: c;
-      
-}
-
-.grid-item:nth-child(4){
-    grid-area: d;
-      
-}
-
-.grid-item:nth-child(5){
-    grid-area: e;
-      
-}
-
-.grid-item:nth-child(6){
-    grid-area: f;
-      
-}
+  
