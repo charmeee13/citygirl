@@ -60,6 +60,7 @@ ol{
     position: absolute; 
     margin-left: 17px;
     display: none;  
+    opacity: 0.6;
 }
 
 ol li a{
@@ -83,7 +84,9 @@ ol li a{
 .title{
     display:inline-block;
     width: 130px;
+    opacity: 0.5;
 }
+
 
 
 .title:hover span.a{

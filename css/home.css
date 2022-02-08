@@ -219,6 +219,7 @@ ol{
     position: absolute; 
     margin-left: 15px;
     display: none; 
+    opacity: 0.6;
 }
 
 
