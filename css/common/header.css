@@ -2,7 +2,6 @@
 
 header{
     min-width: 970px;
-    /* border: solid #000 5px; */
     background-color: #fff;
     position: sticky;
     top:0;
@@ -64,7 +63,6 @@ ol{
 }
 
 ol li a{
-    /* 艱難的置中之路 之不知為何這邊成功了 */
     display: block;
     text-align: center;
 }  
@@ -99,20 +97,11 @@ ol li a{
 }
 
 
-span.a:hover{
-    /* transform: translateX(0); */
-    /* transition: all .4s;  */
-}
 
-/* span.b:hover{
-    transform: translateX(0);
-    transition: all .4s;  
-}  */
 
 
 span.a{
     display:inline-block;
-    /* transform: translateY(0); */
     transition: all .4s;  
 }
 
