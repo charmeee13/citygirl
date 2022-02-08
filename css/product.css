@@ -31,16 +31,35 @@ body{
 
 h1{
     font-size: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
     text-align: center;
 }
+
+h3{
+    font-size: 20px;
+}
+
+
 
 p{
     padding-bottom: 30px;
 }
 
 
-.button a{
+.button .b_1{
+    text-decoration: none;
+    color: #fff;
+    background-color: #67696e;;
+    display: inline-block;
+    width: 180px;
+    line-height: 50px;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button .b_2{
     text-decoration: none;
     color: #585858;
     background-color: #f1ecec;
@@ -53,9 +72,49 @@ p{
     border-radius: 10px;
 }
 
-.button a:hover{
-    background-color: #f1ecec;   
-    color: #000;
+.p_qty{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.qty{
+    display: flex;
+	justify-content: center;
+    align-items: center; 
+
+    padding-left: 20px;
+}
+
+.qty a{
+    text-decoration: none;
+    font-size: 30px;
+    width: 30px;
+    height: 20px;
+    background-color:  #f6f6f6;
+    border: #e5e7eb solid 1px;
+    /* display: block; 
+	text-align: center; */
+
+    /* display:inline-block;
+    text-align: center;  */
+
+    display: flex;
+	justify-content: center;
+    align-items: center; 
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button .b_1:hover{
+    background-color: #4e4848;   
+    color: rgb(255, 255, 255);
+} 
+
+.button .b_2:hover{
+    background-color: #67696e;   
+    color: rgb(255, 255, 255);
 } 
 
 
