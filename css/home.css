@@ -51,6 +51,20 @@ nav ul li a {
 }
 
 
+/* fullpage圖片 */
+.fullpage .fp-tableCell{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+.fullpage .fullpage_img1{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+
 
 /* 頁面上的a連結按鈕 */ 
 
@@ -152,7 +166,7 @@ nav ul li a {
     position: absolute;
     z-index: 9;
     left:235px;
-    top:400px;
+    top:470px;
 }
 .fullpage_img2{
     position: absolute;
@@ -186,8 +200,8 @@ nav ul li a {
 .f3h{
     position: absolute;
     z-index: 9;
-    right:430px;
-    top: 320px;
+    right:480px;
+    top: 370px;
 }
 
 /* 但讓我的a連結按鈕不見了 */
